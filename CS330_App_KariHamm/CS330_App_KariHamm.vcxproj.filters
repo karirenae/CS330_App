@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{3199af7c-5012-4881-b8b1-05048de3518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{be788671-033a-41d3-9e7f-3bd4f92dc5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\GLAD">
+      <UniqueIdentifier>{3554ff3b-1b6e-4ed1-b9ad-5e65cd16a426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{3fd53053-95b1-4af0-a8e4-229686dcb32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\core">
+      <UniqueIdentifier>{83b1c1a5-a0bc-488e-8bd3-59975855a125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\rendering">
+      <UniqueIdentifier>{d008b545-7f1b-48f7-bb3c-5ea4814dc1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\objects">
+      <UniqueIdentifier>{57699ff6-0d83-4277-8e2c-6230e8127df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\core">
+      <UniqueIdentifier>{567c3270-bcdb-4078-b738-51e34db614ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\rendering">
+      <UniqueIdentifier>{6f29b575-d2a0-45b8-bc13-86d4a5f9553a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{36082a73-d07c-4e9c-9ec7-61f92a62eda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{68e554be-afdf-4e84-a065-da2c73cc9ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{5d8da53f-bdb1-4b9b-81f6-d1af5a07b66a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\stb">
+      <UniqueIdentifier>{7ccc9a67-3938-46ac-a9d0-fe9ad10182f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\objects">
+      <UniqueIdentifier>{516c856e-2786-451c-9a56-c34bea98e9e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\vslibs\GLAD\src\glad.c">
+      <Filter>Source Files\external\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\application.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\camera.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\mesh.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\shader.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\texture.cpp">
+      <Filter>Source Files\src\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\model.cpp">
+      <Filter>Source Files\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="external\vslibs\stb_image\stb.cpp">
+      <Filter>Source Files\external\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\cube.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\point_light.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\pyramid.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\table.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\pen.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\blue_sphere.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objects\multi_sphere.cpp">
+      <Filter>Source Files\src\objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic_shader.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="shaders\basic_shader.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\texture_shader.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\texture_shader.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\application.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\camera.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\mesh.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\shader.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\types.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\model.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\shapes.h">
+      <Filter>Source Files\include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\cube.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\object.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rendering\texture.h">
+      <Filter>Source Files\include\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\point_light.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\pyramid.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\table.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\pen.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\blue_sphere.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\objects\multi_sphere.h">
+      <Filter>Source Files\include\objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\awesomeface.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\container.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\wall.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\tabletexture.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\pentexture.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\bluespheretexture.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\whitecubetexture.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\multispheretexture.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
